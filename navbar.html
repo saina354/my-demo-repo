@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navbar Example</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+nav{
+    background:#1e3a8a;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+ul{
+    display:flex;
+    list-style:none;
+}
+
+ul li{
+    margin-left:25px;
+}
+
+ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:.3s;
+}
+
+ul li a:hover{
+    color:yellow;
+}
+
+</style>
+
+</head>
+<body>
+
+<nav>
+
+<div class="logo">
+My Website
+</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Gallery</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">Login</a></li>
+</ul>
+
+</nav>
+
+</body>
+</html>
